@@ -42,7 +42,7 @@ const isDisabled = () => {
 };
 
 
-const clearBtn = document.querySelector('.btn1')
+const clearBtn = document.getElementById('clearBtn')
 function clear() {
 
     document.getElementById("Height").value = null;
