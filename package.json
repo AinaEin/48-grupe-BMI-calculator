@@ -1,0 +1,17 @@
+{
+  "name": "48-grupe-bmi-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost --port=4811",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aina Einikyte (https://github.com/AinaEin)",
+  "license": "ISC",
+  "devDependencies": {
+    "dead-server": "^1.0.9",
+    "nodemon": "^3.1.0"
+  }
+}
