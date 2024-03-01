@@ -7,13 +7,13 @@ function calculate() {
   bmi = bmi.toFixed(2);
 
   if (bmi > 0 && bmi <= 18.5) {
-    output.innerHTML = 'Your BMI is : <b>' + bmi;
+    output.innerHTML = 'Your BMI is : <b>' + bmi + '</b><br>Your weight is <span>Underweight</span>.';
     output.style.color = "gold";
   } else if (bmi > 18.5 && bmi <= 25) {
-    output.innerHTML = "Your BMI is : <b>" + bmi;
+    output.innerHTML = "Your BMI is : <b>" + bmi + "</b><br>Your weight is <span>Normal (healthy weight)</span>.";
     output.style.color = "green";
   } else if (bmi > 25 && bmi <= 40) {
-    output.innerHTML = "Your BMI is : <b>" + bmi;
+    output.innerHTML = "Your BMI is : <b>" + bmi + "</b><br>Your weight is <span>Overweight</span>.";
     output.style.color = "red";
   } else {
     output.innerHTML = "Please type valid numbers.";
