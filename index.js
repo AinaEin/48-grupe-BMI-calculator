@@ -8,7 +8,7 @@ function calculate() {
 
   if (bmi > 0 && bmi <= 18.5) {
     output.innerHTML = 'Your BMI is : <b>' + bmi;
-    output.style.color = "yellow";
+    output.style.color = "gold";
   } else if (bmi > 18.5 && bmi <= 25) {
     output.innerHTML = "Your BMI is : <b>" + bmi;
     output.style.color = "green";
@@ -21,9 +21,9 @@ function calculate() {
 }
 
 const isDisabled = () => {
-    console.log("isDisabled");
-  const height = parseFloat(document.getElementById("Height").value);
-  const weight = parseFloat(document.getElementById("Weight").value);
+    
+  const height = document.getElementById("Height").value;
+  const weight = document.getElementById("Weight").value;
   const clearBtn = document.getElementById("clearBtn");
 
    clearBtn.classList.add("active");
