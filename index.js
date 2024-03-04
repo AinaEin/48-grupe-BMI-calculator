@@ -1,6 +1,6 @@
 function calculate() {
-  const height = document.getElementById("Height").value;
-  const weight = document.getElementById("Weight").value;
+  const height = document.getElementById("height").value;
+  const weight = document.getElementById("weight").value;
   const output = document.getElementById("output");
 
   let bmi = weight / (height / 100) ** 2;
@@ -22,8 +22,8 @@ function calculate() {
 
 const isDisabled = () => {
     
-  const height = document.getElementById("Height").value;
-  const weight = document.getElementById("Weight").value;
+  const height = document.getElementById("height").value;
+  const weight = document.getElementById("weight").value;
   const clearBtn = document.getElementById("clearBtn");
 
    clearBtn.classList.add("active");
@@ -45,8 +45,8 @@ const isDisabled = () => {
 const clearBtn = document.getElementById('clearBtn')
 function clear() {
 
-    document.getElementById("Height").value = null;
-    document.getElementById("Weight").value = null;
+    document.getElementById("height").value = null;
+    document.getElementById("weight").value = null;
     
     clearBtn.classList.remove('active');
     document.getElementById("output").innerHTML = "";
